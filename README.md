@@ -66,6 +66,8 @@ Copy-Item opencode\agents\* "$env:APPDATA\opencode\agents\"
 
 ### Start
 
+If it is a new project, where you have not used openspec yet, run `openspec init` to set it up before launching opencode.
+
 Open a new OpenCode session in your project directory and describe the change you want to make to `@architect`.
 
 ## Credits
