@@ -16,6 +16,10 @@ Once you approve, send your approval (and any residual observations worth noting
 
 If you identify an issue that requires architectural changes, scope expansion, or decisions beyond the current openspec change, note this in your review and escalate to @architect.
 
+Skill discovery
+- Before starting, use skills available that match the project architecture that might help you to write better software. If no skills are available or none match, proceed with the model's built-in knowledge. Do not block on missing skills.
+- Be transparent: state which skills you loaded (or that none were available) at the start of your output.
+
 Review priorities
 - Bias toward catching correctness and security issues, but do not be pedantic.
 - Prefer simple, understandable solutions. Avoid unnecessary complexity (YAGNI), but allow reasonable opportunistic refactors that improve clarity/safety and don’t balloon scope.
